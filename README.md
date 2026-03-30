@@ -311,28 +311,26 @@ python bus5bunching.py --gtfs-dir output/gtfs_5bus --output-dir output/bus5_dens
 
 ## Figures Included In Repository
 
-Generated output files remain in `output/bus5_density` for local analysis. To make figures visible on GitHub, PNG files are copied to a tracked folder:
-
-- `docs/images`
+Generated output files are written to `output/bus5_density` and embedded below.
 
 ### Density maps and charts
 
-![Bus 5 Path Density](docs/images/bus5_path_density.png)
-![Bus 5 Stop Density](docs/images/bus5_stop_density.png)
-![Bus 5 Hourly Activity](docs/images/bus5_hourly_activity.png)
-![Bus 5 Hourly Activity By Direction](docs/images/bus5_hourly_by_direction.png)
+![Bus 5 Path Density](output/bus5_density/bus5_path_density.png)
+![Bus 5 Stop Density](output/bus5_density/bus5_stop_density.png)
+![Bus 5 Hourly Activity](output/bus5_density/bus5_hourly_activity.png)
+![Bus 5 Hourly Activity By Direction](output/bus5_density/bus5_hourly_by_direction.png)
 
 ### Direction-specific maps
 
-![Path Density Direction 1](docs/images/bus5_path_density_direction_1.png)
-![Path Density Direction 2](docs/images/bus5_path_density_direction_2.png)
-![Stop Density Direction 1](docs/images/bus5_stop_density_direction_1.png)
-![Stop Density Direction 2](docs/images/bus5_stop_density_direction_2.png)
+![Path Density Direction 1](output/bus5_density/bus5_path_density_direction_1.png)
+![Path Density Direction 2](output/bus5_density/bus5_path_density_direction_2.png)
+![Stop Density Direction 1](output/bus5_density/bus5_stop_density_direction_1.png)
+![Stop Density Direction 2](output/bus5_density/bus5_stop_density_direction_2.png)
 
 ### Bunching visuals
 
-![Hourly Bunching By Direction](docs/images/bus5_bunching_hourly_direction.png)
-![Bunching Heatmap By Key Stops](docs/images/bus5_bunching_keystops_heatmap.png)
+![Hourly Bunching By Direction](output/bus5_density/bus5_bunching_hourly_direction.png)
+![Bunching Heatmap By Key Stops](output/bus5_density/bus5_bunching_keystops_heatmap.png)
 
 ## Practical Notes
 
