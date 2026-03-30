@@ -1,2 +1,2 @@
-agency_id,agency_name,agency_url,agency_timezone,agency_lang
-212,Hamburger Verkehrsverbund,https://www.bahn.de,Europe/Berlin,de
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
+66,Hamburger Verkehrsverbund (hvv),http://www.hvv.de,Europe/Berlin,de,040/19449

@@ -20,13 +20,22 @@ GTFS_FILES = [
 ]
 
 
+def default_input_dir() -> str:
+    root = Path(__file__).resolve().parent
+    candidates = ["input/gtfs5bus", "input/gtfs_de_2026-03-30"]
+    for candidate in candidates:
+        if (root / candidate).exists():
+            return candidate
+    return candidates[0]
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Create a Hamburg-focused GTFS subset from a larger feed."
     )
     parser.add_argument(
         "--input-dir",
-        default="input/gtfs_de_2026-03-30",
+        default=default_input_dir(),
         help="Directory with source GTFS .txt files.",
     )
     parser.add_argument(

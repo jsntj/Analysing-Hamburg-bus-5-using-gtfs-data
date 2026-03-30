@@ -6,13 +6,22 @@ import sys
 from pathlib import Path
 
 
+def default_source_gtfs() -> str:
+    root = Path(__file__).resolve().parent
+    candidates = ["input/gtfs5bus", "input/gtfs_de_2026-03-30"]
+    for candidate in candidates:
+        if (root / candidate).exists():
+            return candidate
+    return candidates[0]
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Run complete GTFS bus 5 pipeline: Hamburg filter -> bus 5 filter -> density analysis."
     )
     parser.add_argument(
         "--source-gtfs",
-        default="input/gtfs_de_2026-03-30",
+        default=default_source_gtfs(),
         help="Original GTFS source folder.",
     )
     parser.add_argument(
