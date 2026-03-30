@@ -412,15 +412,32 @@ def plot_key_stop_heatmap(
         row = [float(metrics[key][h]["bunching_index"]) for h in range(24)]
         matrix.append(row)
 
+    values = [value for row in matrix for value in row]
+    sorted_values = sorted(values)
+    if sorted_values:
+        p95_index = int(round(0.95 * (len(sorted_values) - 1)))
+        vmax = max(sorted_values[p95_index], 0.01)
+    else:
+        vmax = 1.0
+
     fig, ax = plt.subplots(figsize=(14, max(4, len(rows) * 0.55)))
-    image = ax.imshow(matrix, aspect="auto", cmap="magma", vmin=0, vmax=1)
+    image = ax.imshow(matrix, aspect="auto", cmap="YlOrRd", vmin=0, vmax=vmax)
     ax.set_title("Bus 5 bunching index heatmap by key stop and hour")
     ax.set_xlabel("Hour of day")
     ax.set_ylabel("Direction and key stop")
     ax.set_xticks(list(range(24)))
     ax.set_yticks(list(range(len(labels))))
     ax.set_yticklabels(labels)
-    fig.colorbar(image, ax=ax, label="Bunching index")
+
+    # Annotate non-zero cells to make subtle differences readable.
+    for y, row in enumerate(matrix):
+        for x, value in enumerate(row):
+            if value <= 0:
+                continue
+            text_color = "#111111" if value < vmax * 0.6 else "white"
+            ax.text(x, y, f"{value:.2f}", ha="center", va="center", fontsize=7, color=text_color)
+
+    fig.colorbar(image, ax=ax, label=f"Bunching index (p95-scaled, vmax={vmax:.3f})")
     fig.tight_layout()
     fig.savefig(path, dpi=220)
     plt.close(fig)
