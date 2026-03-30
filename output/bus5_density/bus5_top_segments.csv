@@ -1,16 +1,16 @@
 rank,from_stop_id,from_stop_name,to_stop_id,to_stop_name,trip_occurrences
-1,343825,Nedderfeld,17945,Siemersplatz,643
-2,17945,Siemersplatz,632776,Brunsberg,643
-3,632776,Brunsberg,13684,Veilchenweg (Ost),643
-4,13684,Veilchenweg (Ost),176178,Gärtnerstraße,643
-5,176178,Gärtnerstraße,547008,Eppendorfer Weg (Ost),643
-6,547008,Eppendorfer Weg (Ost),648132,U Hoheluftbrücke,643
-7,648132,U Hoheluftbrücke,658960,Bezirksamt Eimsbüttel,643
-8,658960,Bezirksamt Eimsbüttel,254921,Grindelhof,643
-9,254921,Grindelhof,276320,Universität/Staatsbibliothek,643
-10,276320,Universität/Staatsbibliothek,348986,Bf. Dammtor,643
-11,348986,Bf. Dammtor,204156,U Stephansplatz,643
-12,204156,U Stephansplatz,74653,U Gänsemarkt,643
-13,74653,U Gänsemarkt,605382,U S Jungfernstieg,643
-14,605382,U S Jungfernstieg,124065,Rathausmarkt,643
-15,124065,Rathausmarkt,489598,Gerhart-Hauptmann-Platz,643
+1,de:02000:91015::910061,Nedderfeld,de:02000:91016:1:900007,Siemersplatz,646
+2,de:02000:91016:1:900007,Siemersplatz,de:02000:90017::900066,Brunsberg,646
+3,de:02000:90017::900066,Brunsberg,de:02000:90016::900064,Veilchenweg (Ost),646
+4,de:02000:90016::900064,Veilchenweg (Ost),de:02000:90011:1:900051,Gärtnerstraße,646
+5,de:02000:90011:1:900051,Gärtnerstraße,de:02000:90010::900043,Eppendorfer Weg (Ost),646
+6,de:02000:90010::900043,Eppendorfer Weg (Ost),de:02000:11029::110081,U Hoheluftbrücke,646
+7,de:02000:11029::110081,U Hoheluftbrücke,de:02000:11028:2:110122,Bezirksamt Eimsbüttel,646
+8,de:02000:11028:2:110122,Bezirksamt Eimsbüttel,de:02000:11035::110119,Grindelhof,646
+9,de:02000:11035::110119,Grindelhof,de:02000:11021::110115,Universität/Staatsbibliothek,646
+10,de:02000:11021::110115,Universität/Staatsbibliothek,de:02000:11022:2:110101,Bf. Dammtor,646
+11,de:02000:11022:2:110101,Bf. Dammtor,de:02000:11013:2:110065,U Stephansplatz,646
+12,de:02000:11013:2:110065,U Stephansplatz,de:02000:11012::110063,U Gänsemarkt,646
+13,de:02000:11012::110063,U Gänsemarkt,de:02000:11020::110066,U S Jungfernstieg,646
+14,de:02000:11020::110066,U S Jungfernstieg,de:02000:11003:2:110031,Rathausmarkt,646
+15,de:02000:11003:2:110031,Rathausmarkt,de:02000:11002::110007,Gerhart-Hauptmann-Platz,646

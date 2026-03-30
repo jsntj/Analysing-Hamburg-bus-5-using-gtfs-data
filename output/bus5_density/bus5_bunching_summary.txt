@@ -1,20 +1,20 @@
 Bus 5 bunching report
 ============================================================
-Peak scheduled date: 2026-04-15
-Peak scheduled trips: 533
+Peak scheduled date: 2025-04-17
+Peak scheduled trips: 537
 
 Direction-level peak bunching by hour
 ------------------------------------------------------------
-direction_1: A Burgwedel -> Hauptbahnhof/ZOB | hour=07 | bunching_index=0.4967 | short_ratio=0.682 | cv=0.438
-direction_2: Hamburg Hbf ZOB -> A Burgwedel | hour=21 | bunching_index=0.0747 | short_ratio=0.0 | cv=0.374
+direction_1: A Burgwedel -> Hauptbahnhof/ZOB | hour=09 | bunching_index=0.5402 | short_ratio=0.793 | cv=0.322
+direction_2: Hauptbahnhof/ZOB -> A Burgwedel | hour=00 | bunching_index=0.0963 | short_ratio=0.0 | cv=0.481
 
 Key-stop peak bunching by hour
 ------------------------------------------------------------
-direction_1: A Burgwedel -> Hauptbahnhof/ZOB | Bf. Dammtor (348986) | hour=08 | bunching_index=0.5158 | short_ratio=0.724 | cv=0.406
-direction_1: A Burgwedel -> Hauptbahnhof/ZOB | Nedderfeld (343825) | hour=04 | bunching_index=0.2709 | short_ratio=0.0 | cv=1.355
-direction_1: A Burgwedel -> Hauptbahnhof/ZOB | Rathausmarkt (124065) | hour=13 | bunching_index=0.5198 | short_ratio=0.692 | cv=0.522
-direction_1: A Burgwedel -> Hauptbahnhof/ZOB | U Hoheluftbrücke (648132) | hour=14 | bunching_index=0.5402 | short_ratio=0.793 | cv=0.322
-direction_2: Hamburg Hbf ZOB -> A Burgwedel | Gerhart-Hauptmann-Platz (495010) | hour=21 | bunching_index=0.0747 | short_ratio=0.0 | cv=0.374
-direction_2: Hamburg Hbf ZOB -> A Burgwedel | HBF/Mönckebergstraße (156980) | hour=21 | bunching_index=0.0747 | short_ratio=0.0 | cv=0.374
-direction_2: Hamburg Hbf ZOB -> A Burgwedel | HBF/Steintordamm (348961) | hour=21 | bunching_index=0.0747 | short_ratio=0.0 | cv=0.374
-direction_2: Hamburg Hbf ZOB -> A Burgwedel | Hamburg Hbf ZOB (82968) | hour=21 | bunching_index=0.0747 | short_ratio=0.0 | cv=0.374
+direction_1: A Burgwedel -> Hauptbahnhof/ZOB | Brunsberg (de:02000:90017::900066) | hour=06 | bunching_index=0.0693 | short_ratio=0.0 | cv=0.346
+direction_1: A Burgwedel -> Hauptbahnhof/ZOB | Nedderfeld (de:02000:91015::910061) | hour=06 | bunching_index=0.0752 | short_ratio=0.0 | cv=0.376
+direction_1: A Burgwedel -> Hauptbahnhof/ZOB | Siemersplatz (de:02000:91016:1:900007) | hour=06 | bunching_index=0.0693 | short_ratio=0.0 | cv=0.346
+direction_1: A Burgwedel -> Hauptbahnhof/ZOB | Veilchenweg (Ost) (de:02000:90016::900064) | hour=06 | bunching_index=0.0693 | short_ratio=0.0 | cv=0.346
+direction_2: Hauptbahnhof/ZOB -> A Burgwedel | Gerhart-Hauptmann-Platz (de:02000:11002::110002) | hour=21 | bunching_index=0.0693 | short_ratio=0.0 | cv=0.346
+direction_2: Hauptbahnhof/ZOB -> A Burgwedel | HBF/Mönckebergstraße (de:02000:11001::110001) | hour=21 | bunching_index=0.0693 | short_ratio=0.0 | cv=0.346
+direction_2: Hauptbahnhof/ZOB -> A Burgwedel | Hauptbahnhof/ZOB (de:02000:10002:3:100028) | hour=00 | bunching_index=0.0963 | short_ratio=0.0 | cv=0.481
+direction_2: Hauptbahnhof/ZOB -> A Burgwedel | Rathausmarkt (de:02000:11003:1:110028) | hour=21 | bunching_index=0.0693 | short_ratio=0.0 | cv=0.346

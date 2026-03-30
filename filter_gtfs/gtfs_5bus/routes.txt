@@ -1,0 +1,2 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color,route_desc
+1369_3,66,5,%AB Burgwedel > %UB Niendorf Markt > Hoheluft > Hauptbahnhof,3,,,

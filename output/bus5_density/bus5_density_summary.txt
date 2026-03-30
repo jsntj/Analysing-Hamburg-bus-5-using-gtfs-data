@@ -1,15 +1,15 @@
 Bus line density analysis
 ============================================================
 Matched routes: 1
-Matched trips: 1243
-Unique active stops: 62
-Unique path segments: 64
+Matched trips: 1281
+Unique active stops: 65
+Unique path segments: 63
 Detected directions: 2
 Routes:
-- route_id=14007, agency=Hamburger Verkehrsverbund, long_name=
-Top stop: U Hoheluftbrücke (648132) with 1242 trip occurrences
-Top segment: Nedderfeld -> Siemersplatz with 643 trip occurrences
-Peak hour: 09:00 with 1991 segment traversals
+- route_id=1369_3, agency=Hamburger Verkehrsverbund (hvv), long_name=%AB Burgwedel > %UB Niendorf Markt > Hoheluft > Hauptbahnhof
+Top stop: Nedderfeld (de:02000:91015::910061) with 646 trip occurrences
+Top segment: Nedderfeld -> Siemersplatz with 646 trip occurrences
+Peak hour: 16:00 with 1974 segment traversals
 Directions:
-- direction_1: A Burgwedel -> Hauptbahnhof/ZOB: 22337 segment traversals across 63 unique segments
-- direction_2: Hamburg Hbf ZOB -> A Burgwedel: 8010 segment traversals across 30 unique segments
+- direction_1: A Burgwedel -> Hauptbahnhof/ZOB: 22400 segment traversals across 62 unique segments
+- direction_2: Hauptbahnhof/ZOB -> A Burgwedel: 8004 segment traversals across 29 unique segments
