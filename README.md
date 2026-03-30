@@ -17,6 +17,19 @@ The goal is to produce a clean, reproducible pipeline that answers:
 - How service intensity changes by hour.
 - Whether schedule spacing shows bunching-like patterns.
 
+## Summary 
+-The pipeline ran from input folder and then output throguuh output folder for ease pipeline look.
+-This version : input folder runs on filtered only by Bus 5 (HH) only. 
+
+# Bus 5 service is directional:
+- Direction 1 Burgwedel -> Hauptbahnhof/ZOB  
+- Direction 2 Hauptbahnhof/ZO  -> Burgwedel 
+# Pattern
+- Direction 1 has heavier and more compressed service patterns than 
+- Peak network activity is in the late afternoon (around 16:00), showing highest segment movement then.
+- Bunching risk is mostly moderate in Direction 1 during busy periods, while Direction 2 is generally low-risk except some late-evening spikes.
+- Key-stop heatmap shows most values are low overall, meaning widespread severe bunching is not dominant in this schedule, but there are specific hour-direction hotspots worth monitoring.
+
 ## Scripts and Responsibilities
 
 - filter_hamburg_gtfs.py
