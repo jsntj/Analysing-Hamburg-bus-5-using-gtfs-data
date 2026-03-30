@@ -141,6 +141,7 @@ Headway construction:
 - Key-stop metrics use departure times at that stop.
 - Hourly headways are consecutive gaps within each hour.
 
+
 Metrics per hour:
 
 - departures
